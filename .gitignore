@@ -1,0 +1,34 @@
+#ignore thumbnails created by windows
+Thumbs.db
+#ignore files build by Visual Studio
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.dotCover
+*.ReSharper
+
+#nuget packages, ignore to Microsoft.Bcl.Build due to http://connect.microsoft.com/VisualStudio/feedback/details/788981/microsoft-bcl-build-targets-causes-project-loading-to-fail
+packages
+
+
+src/.vs/
